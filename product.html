@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO -->
+  <title>Products — Yixun Energy | Power Battery · Energy Storage · Battery Cabinet</title>
+  <meta name="description" content="Explore Yixun Energy product range: power batteries (72V/60V/48V/24V), energy storage batteries (wall-mounted/rack/stackable), and smart battery storage cabinets.">
+  <meta name="keywords" content="power battery, energy storage battery, battery cabinet, lithium battery manufacturer, Yixun Energy">
+  <meta name="robots" content="index, follow">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: '#0a0c10', 'dark-soft': '#16181d', 'dark-card': '#1c1f25',
+            accent: '#c6903f', 'accent-hover': '#a6772e',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-gray-800 antialiased">
+
+  <!-- ==================== Navbar ==================== -->
+  <header id="navbar">
+    <div class="container flex items-center justify-between h-16 md:h-20">
+      <a href="index.html" class="flex items-center gap-3 shrink-0 no-underline">
+        <img src="img/logo.png" alt="Yixun Energy" class="h-10 w-auto">
+        <span class="text-dark font-bold text-lg tracking-tight">Yixun Tech<span class="text-accent">.</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="product.html" class="nav-link active">Products</a>
+        <a href="case.html" class="nav-link">Cases</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      <div class="hidden md:flex items-center gap-4">
+        <a href="tel:+8615826560159" class="text-dark font-semibold text-sm tracking-tight no-underline">+86 158 2656 0159</a>
+        <a href="contact.html" class="btn btn-primary text-sm py-2 px-5">Get Quote</a>
+      </div>
+      <button onclick="toggleMobileMenu()" class="md:hidden text-dark p-2" aria-label="Menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div id="mobile-menu" class="md:hidden max-h-0 bg-white/95 backdrop-blur border-t border-gray-100">
+      <nav class="flex flex-col px-4 py-3 gap-1 text-sm font-medium">
+        <a href="index.html" class="block py-3 text-gray-600 border-b border-gray-50">Home</a>
+        <a href="product.html" class="block py-3 text-dark border-b border-gray-50">Products</a>
+        <a href="case.html" class="block py-3 text-gray-600 border-b border-gray-50">Cases</a>
+        <a href="about.html" class="block py-3 text-gray-600 border-b border-gray-50">About</a>
+        <a href="contact.html" class="block py-3 text-gray-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==================== Page Title ==================== -->
+  <section class="pt-28 pb-12 md:pt-36 md:pb-16 bg-dark-soft text-white text-center">
+    <h1 class="text-3xl md:text-5xl font-black mb-3">Our Products</h1>
+    <p class="text-gray-400 max-w-lg mx-auto">Power Battery · Energy Storage · Battery Storage Cabinet</p>
+  </section>
+
+  <!-- ==================== Power Battery ==================== -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container">
+      <div class="text-center mb-10">
+        <span class="section-tag">Power Battery</span>
+        <h2 class="text-2xl md:text-3xl font-black text-dark mb-2">High-Performance Lithium Power Solutions</h2>
+        <p class="text-gray-400 max-w-xl mx-auto">72V · 60V · 48V · 36V · 24V — OEM custom configurations for EVs, tricycles, and industrial applications</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- P1 -->
+        <div onclick="openModal('72V 20Ah / 30Ah / 60Ah','Li-ion/NCM · Multi-Capacity · EV Ready',['Multiple capacity options: 20Ah, 30Ah, 60Ah','High energy density Li-ion/NCM cells','Built-in Smart BMS protection','Ideal for electric vehicles and tricycles','CE / RoHS / UN38.3 certified'],'img/P1.png','https://www.alibaba.com/product-detail/Factory-Price-72V-20ah-30ah-60ah_1601798053254.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/P1.png" alt="72V Power Battery" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Power Battery</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">72V 20Ah / 30Ah / 60Ah</h3>
+            <p class="text-gray-500 text-sm">Multi-capacity options · Li-ion/NCM cells · EV & tricycle ready</p>
+          </div>
+        </div>
+        <!-- P2 -->
+        <div onclick="openModal('IP67 Waterproof 60V 166Ah','IP67 · 166Ah · Tricycle/EV',['Fully sealed IP67 waterproof enclosure','Ultra-large 166Ah capacity','LiFePO4 deep cycle cells','Smart BMS with cell balancing','Designed for tricycles and EVs','CE / RoHS / UN38.3 certified'],'img/P2.png','https://www.alibaba.com/product-detail/Factory-Direct-IP67-Waterproof-60V-166Ah_1601777650692.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/P2.png" alt="60V 166Ah IP67" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Power Battery</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">IP67 Waterproof 60V 166Ah</h3>
+            <p class="text-gray-500 text-sm">Fully sealed waterproof · 166Ah large capacity · Tricycle & EV</p>
+          </div>
+        </div>
+        <!-- P3 -->
+        <div onclick="openModal('60V 50Ah OEM Custom','60V · 50Ah · NCM/LiFePO4',['Custom voltage and capacity configurations','NCM and LiFePO4 chemistry options','Built-in BMS with multi-layer protection','Compact design for space-constrained applications','CE / RoHS / UN38.3 certified','Factory direct OEM pricing'],'img/P3.png','https://www.alibaba.com/product-detail/Factory-Direct-OEM-Custom-60V-50Ah_1601777717193.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/P3.png" alt="60V 50Ah" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Power Battery</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">60V 50Ah OEM Custom</h3>
+            <p class="text-gray-500 text-sm">Custom voltage & capacity · NCM/LiFePO4 options · BMS built-in</p>
+          </div>
+        </div>
+        <!-- P4 -->
+        <div onclick="openModal('72V Multi-Voltage Optional','72V/60V/48V · Flexible Capacity',['72V, 60V, and 48V voltage options','Flexible capacity configurations available','Wholesale pricing for bulk orders','Universal BMS compatibility','CE / RoHS / UN38.3 certified','OEM/ODM custom design service'],'img/P4.png','https://www.alibaba.com/product-detail/Factory-Wholesale-Multi-Voltage-Optional-72V_1601777406700.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/P4.png" alt="72V Multi-Voltage" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Power Battery</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">72V Multi-Voltage Optional</h3>
+            <p class="text-gray-500 text-sm">72V · 60V · 48V configs · Flexible capacity · Wholesale pricing</p>
+          </div>
+        </div>
+        <!-- P5 -->
+        <div onclick="openModal('24V 200Ah Deep Cycle','24V · 200Ah · LiFePO4 · 3000+ Cycles',['LiFePO4 chemistry for maximum safety and longevity','3000+ deep discharge cycles','200Ah large capacity for extended runtime','Solar and marine application ready','Built-in BMS with temperature protection','CE / RoHS / UN38.3 certified'],'img/P5.png','https://www.alibaba.com/product-detail/Factory-Direct-OEM-Custom-24V-200Ah_1601776881788.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/P5.png" alt="24V 200Ah" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Power Battery</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">24V 200Ah Deep Cycle</h3>
+            <p class="text-gray-500 text-sm">LiFePO4 chemistry · 6000+ cycles · Solar & marine ready</p>
+          </div>
+        </div>
+        <!-- P6 -->
+        <div onclick="openModal('72V 300Ah Vehicle Battery','72V · 300Ah · Vehicle-Matched · ODM',['Ultra-large 300Ah capacity','Vehicle-matched design for seamless integration','ODM custom engineering available','High-rate discharge capability','Industrial-grade LiFePO4 cells','CE / RoHS / UN38.3 certified'],'img/P6.png','https://www.alibaba.com/product-detail/ODM-Custom-Vehicle-Matching-72V-300Ah_1601777300634.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/P6.png" alt="72V 300Ah" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Power Battery</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">72V 300Ah Vehicle Battery</h3>
+            <p class="text-gray-500 text-sm">Ultra-large capacity · Vehicle-matched design · ODM custom</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Energy Storage Battery ==================== -->
+  <section class="py-16 md:py-24 bg-gray-50">
+    <div class="container">
+      <div class="text-center mb-10">
+        <span class="section-tag">Energy Storage Battery</span>
+        <h2 class="text-2xl md:text-3xl font-black text-dark mb-2">Residential & Commercial Energy Storage</h2>
+        <p class="text-gray-400 max-w-xl mx-auto">Wall-mounted · Stackable · Rack-mounted — reliable LiFePO4 storage solutions for solar and off-grid systems</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- E1 -->
+        <div onclick="openModal('51.2V 6000 Cycles LiFePO4','51.2V · 6000 Cycles · Wall-Mounted',['Ultra-long 6000 cycle lifespan','51.2V nominal voltage','Wall-mounted space-saving design','LiFePO4 chemistry for safety and reliability','Built-in Smart BMS with balancing','Ideal for home solar storage systems'],'img/E1.png','https://www.alibaba.com/product-detail/Factory-Price-6000-Cycles-51-2V_1601864077120.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-white flex items-center justify-center relative">
+            <img src="img/E1.png" alt="51.2V 6000 Cycles" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Energy Storage</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">51.2V 6000 Cycles LiFePO4</h3>
+            <p class="text-gray-500 text-sm">Ultra-long cycle life · Wall-mounted design · Home solar storage</p>
+          </div>
+        </div>
+        <!-- E2 -->
+        <div onclick="openModal('51.2V 6000 Cycles LiFePO4','51.2V · 6000 Cycles · Wall-Mounted',['Ultra-long 6000 cycle lifespan','51.2V nominal voltage','Wall-mounted space-saving design','LiFePO4 chemistry for safety and reliability','Built-in Smart BMS with balancing','Ideal for home solar storage systems'],'img/E1.png','https://www.alibaba.com/product-detail/Factory-Price-6000-Cycles-51-2V_1601864077120.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-white flex items-center justify-center relative">
+            <img src="img/E2.png" alt="All-in-One ESS" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Energy Storage</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">All-in-One ESS 8/10/15/20kWh</h3>
+            <p class="text-gray-500 text-sm">Integrated inverter + battery · Stackable design · Plug & play</p>
+          </div>
+        </div>
+        <!-- E3 -->
+        <div onclick="openModal('12V/24V 314Ah Smart Battery','12V/24V · 314Ah · Bluetooth BMS · Grade-A Cells',['Grade-A LiFePO4 cells for maximum performance','314Ah ultra-large capacity','12V and 24V configurations available','Smart BMS with Bluetooth monitoring','RV, marine, and off-grid compatible','CE / RoHS / UN38.3 certified'],'img/E3.png','https://www.alibaba.com/product-detail/Grade-a-12V-24V-314Ah-Smart_1601798651227.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-white flex items-center justify-center relative">
+            <img src="img/E3.png" alt="12V/24V 314Ah" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Energy Storage</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">12V/24V 314Ah Smart Battery</h3>
+            <p class="text-gray-500 text-sm">Grade-A cells · Smart BMS · Bluetooth monitoring · RV & marine</p>
+          </div>
+        </div>
+        <!-- E4 -->
+        <div onclick="openModal('48V Stackable Rack-Mounted','48V · Modular Stackable · Server Rack',['Modular stackable design','48V server rack compatible','Scalable capacity for any requirement','LiFePO4 chemistry for safety','Built-in BMS with communication protocols','Ideal for telecom and data center backup'],'img/E4.png','https://www.alibaba.com/product-detail/Stackable-Rack-Mounted-Power-Storage-48V_1601779763814.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-white flex items-center justify-center relative">
+            <img src="img/E4.png" alt="48V Rack Storage" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Energy Storage</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">48V Stackable Rack-Mounted</h3>
+            <p class="text-gray-500 text-sm">Modular design · Scalable capacity · Server rack compatible</p>
+          </div>
+        </div>
+        <!-- E5 -->
+        <div onclick="openModal('51.2V 100Ah / 200Ah Smart','51.2V · 100Ah/200Ah · CAN/RS485 · LCD',['51.2V nominal voltage','100Ah and 200Ah capacity options','CAN and RS485 communication interfaces','LCD display for real-time monitoring','Parallel connection for capacity expansion','Smart BMS with full protection suite'],'img/E5.png','https://www.alibaba.com/product-detail/Smart-51-2V-100ah-200ah-Lithium_1601795945634.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-white flex items-center justify-center relative">
+            <img src="img/E5.png" alt="51.2V 100/200Ah" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Energy Storage</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">51.2V 100Ah / 200Ah Smart</h3>
+            <p class="text-gray-500 text-sm">CAN/RS485 comms · LCD display · Parallel connection support</p>
+          </div>
+        </div>
+        <!-- E6 -->
+        <div onclick="openModal('51.2V 100Ah / 200Ah Portable','51.2V · 100Ah/200Ah · Portable Design',['Compact and portable design','51.2V efficient performance','100Ah and 200Ah capacity options','High energy conversion efficiency','Home and outdoor dual-use design','Built-in BMS with safety protection'],'img/E6.png','https://www.alibaba.com/product-detail/Efficient-51-2V-100Ah-200Ah-Portable_1601782128266.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-white flex items-center justify-center relative">
+            <img src="img/E6.png" alt="51.2V Portable" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Energy Storage</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">51.2V 100Ah / 200Ah Portable</h3>
+            <p class="text-gray-500 text-sm">Compact & portable · Efficient performance · Home & outdoor use</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Battery Storage Cabinet ==================== -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="container">
+      <div class="text-center mb-10">
+        <span class="section-tag">Battery Storage Cabinet</span>
+        <h2 class="text-2xl md:text-3xl font-black text-dark mb-2">Smart Battery Charging & Storage Cabinets</h2>
+        <p class="text-gray-400 max-w-xl mx-auto">Intelligent charging, safety-certified storage, and fireproof enclosure solutions</p>
+      </div>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- C1 -->
+        <div onclick="openModal('Intelligent Bluetooth Charging Cabinet','App-Controlled · Multi-Slot · Smart Charging',['Bluetooth app remote control and monitoring','Multi-slot simultaneous charging','Smart battery health management','Overcharge and overheating protection','LED status indicator for each slot','Compact design for workshop use'],'img/C1.png','https://www.alibaba.com/product-detail/Intelligent-Bluetooth-Control-Smart-Battery-Charging_1601825115560.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/C1.png" alt="Bluetooth Cabinet" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Storage Cabinet</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">Intelligent Bluetooth Charging Cabinet</h3>
+            <p class="text-gray-500 text-sm">App-controlled · Multi-slot charging · Smart battery management</p>
+          </div>
+        </div>
+        <!-- C2 -->
+        <div onclick="openModal('Explosion-Proof Premium Cabinet','Industrial Grade · Multi-Slot · Explosion-Proof',['Explosion-proof certified enclosure','Industrial-grade heavy-duty construction','Multi-slot battery storage and charging','Automatic fire suppression system','Temperature and smoke monitoring','Compliant with international safety standards'],'img/C2.png','https://www.alibaba.com/product-detail/Explosion-Proof-Premium-Multi-Slot-Battery_1601825029972.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/C2.png" alt="Explosion-Proof Cabinet" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Storage Cabinet</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">Explosion-Proof Premium Cabinet</h3>
+            <p class="text-gray-500 text-sm">Multi-slot · Industrial grade · Enhanced safety protection</p>
+          </div>
+        </div>
+        <!-- C3 -->
+        <div onclick="openModal('Fireproof UL94-V0 48V Cabinet','UL94-V0 · 48V · Smart Charging',['UL94-V0 highest fire-rated enclosure','Smart 48V battery charging system','Automatic charge/discharge management','Over-temperature auto-shutoff','Compact footprint for indoor use','CE and safety certified'],'img/C3.png','https://www.alibaba.com/product-detail/Fireproof-UL94-V0-Smart-48V-Battery_1601825096506.html')" class="card cursor-pointer group">
+          <div class="aspect-[4/3] bg-gray-50 flex items-center justify-center relative">
+            <img src="img/C3.png" alt="Fireproof Cabinet" class="w-full h-full object-contain p-4">
+            </div>
+          <div class="p-5">
+            <span class="text-accent text-xs font-semibold tracking-wide">Storage Cabinet</span>
+            <h3 class="font-bold text-gray-900 mt-1.5 mb-1 group-hover:text-accent transition-colors">Fireproof UL94-V0 48V Cabinet</h3>
+            <p class="text-gray-500 text-sm">UL94-V0 fire-rated · Smart charging · 48V battery compatible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== Footer ==================== -->
+  <footer class="site-footer">
+    <div class="container grid md:grid-cols-4 gap-10">
+      <div class="md:col-span-2">
+        <h3 class="text-white font-bold text-lg mb-3">Yixun Tech<span class="text-accent">.</span></h3>
+        <p class="text-sm max-w-sm">Specialized in lithium battery, energy storage, and power battery R&D and manufacturing. Integrated industrial and trade, serving global B2B clients.</p>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Contact</h4>
+        <ul class="space-y-3 text-sm">
+          <li>WhatsApp: +86 158 2656 0159</li>
+          <li>minglanggeshu01@gmail.com</li>
+          <li>Huicheng District, Huizhou, Guangdong, China</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-semibold text-sm mb-4 uppercase tracking-wider">Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="case.html">Cases</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
