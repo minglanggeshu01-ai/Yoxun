@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yixuntech-elec.com/sitemap.xml
